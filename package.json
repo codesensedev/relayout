@@ -4,7 +4,12 @@
   "description": "A CSS library to build generic and responsive layouts.",
   "license": "MIT",
   "main": "dist/css/graal.css",
+  "style": "dist/css/graal.css",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "prepublishOnly": "npm run build",
     "build": "sass src/scss/graal.scss dist/css/graal.css --style=compressed --no-source-map"
   },
   "repository": {
