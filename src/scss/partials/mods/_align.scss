@@ -1,0 +1,12 @@
+// align
+.graal--align-start { align-items: flex-start; }
+.graal--align-center { align-items: center; }
+.graal--align-end { align-items: flex-end; }
+.graal--align-stretch { align-items: stretch; }
+
+.graal-stack {
+    // text align for stack only
+    & .graal--align-start { text-align: start; }
+    & .graal--align-center { text-align: center; }
+    & .graal--align-end { text-align: end; }
+}

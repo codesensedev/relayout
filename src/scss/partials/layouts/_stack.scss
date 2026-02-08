@@ -1,0 +1,11 @@
+/*
+ * stack
+ */
+ 
+.graal-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: var(--graal-gap-default);
+}

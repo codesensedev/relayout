@@ -1,0 +1,8 @@
+/*
+ * Set box-sizing to border-box for all graal components 
+ * so padding/border are included in the width.
+ */
+[class*="graal-"] {
+    box-sizing: border-box;
+    outline: none;
+}

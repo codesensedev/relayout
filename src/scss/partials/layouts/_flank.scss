@@ -1,0 +1,27 @@
+/*
+ * flank
+ */
+
+.graal-flank {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--graal-gap-default);
+
+    &>:last-child {
+        flex-basis: 0;
+        flex-grow: 999;
+    }
+}
+
+.graal-flank--end {
+    &>:first-child {
+        flex-basis: 0;
+        flex-grow: 999;
+    }
+    &>:last-child {
+        flex-basis: auto;
+        flex-grow: 0;
+    }
+}

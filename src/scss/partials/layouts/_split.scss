@@ -1,0 +1,17 @@
+/*
+ * split
+ */
+
+.graal-split {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--graal-gap-default);
+}
+
+.graal-split--equal > * {
+    flex: 1 1 0;
+    min-width: 0; /* prevents overflow */
+}

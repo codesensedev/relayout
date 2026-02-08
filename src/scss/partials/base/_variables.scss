@@ -1,0 +1,40 @@
+:root {
+    // spacing scale
+    --graal-space-0:     0;
+    --graal-space-xs:    0.125rem;      // 2px
+    --graal-space-s:     0.25rem;       // 4px
+    --graal-space-m:     0.5rem;        // 8px
+    --graal-space-l:     1rem;          // 16px
+    --graal-space-xl:    1.5rem;        // 24px
+    --graal-space-2xl:   2.25rem;       // 36px
+
+    // text scale
+    --graal-text-xs:     0.625rem;      // 10px
+    --graal-text-s:      0.75rem;       // 12px
+    --graal-text-m:      0.875rem;      // 14px
+    --graal-text-l:      1rem;          // 16px
+    --graal-text-xl:     1.5rem;        // 24px
+    --graal-text-2xl:    2.25rem;       // 36px
+    
+    // width scale
+    --graal-width-xs:    20rem;         // 320px   (-10)
+    --graal-width-s:     30rem;         // 480px   (-10)
+    --graal-width-m:     40rem;         // 640px   (-8)
+    --graal-width-l:     48rem;         // 768px   (0)
+    --graal-width-xl:    64rem;         // 1024px  (+16)
+    --graal-width-2xl:   80rem;         // 1280px  (+16)
+
+    // grid scale
+    --graal-grid-xs:     3.125rem;      // 50px
+    --graal-grid-s:      6.25rem;       // 100px
+    --graal-grid-m:      9.375rem;      // 150px
+    --graal-grid-l:      12.5rem;       // 200px
+    --graal-grid-xl:     15.625rem;     // 250px
+    --graal-grid-2xl:    20rem;         // 320px
+
+    // defaults
+    --graal-gap-default: var(--graal-space-0);
+    --graal-padding-default: var(--graal-space-0);
+    --graal-radius-default: var(--graal-space-0);
+    --graal-border-default: solid 1px hsl(0, 0%, 50%);
+}
