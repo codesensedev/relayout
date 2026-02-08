@@ -3,7 +3,7 @@
         Graal
     </p>
     <p align="center">
-        Minimalist CSS library for building complex responsive layouts
+        Minimalist library for building complex responsive layouts
     </p>
 </p>
 
