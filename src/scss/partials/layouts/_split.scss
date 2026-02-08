@@ -8,10 +8,10 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: var(--graal-gap-default);
+    gap: var(--gr-gap-default);
 }
 
-.gr-split--equal > * {
+.gr-split-equal > * {
     flex: 1 1 0;
     min-width: 0; /* prevents overflow */
 }
