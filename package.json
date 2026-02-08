@@ -1,8 +1,8 @@
 {
-  "name": "graalcss",
-  "version": "0.0.16",
+  "name": "@codesense/graal",
+  "version": "0.0.18",
   "type": "module",
-  "description": "Minimalist CSS library for building complex responsive layouts",
+  "description": "Minimalist library for building complex responsive layouts",
   "license": "MIT",
   "main": "dist/js/graal.js",
   "module": "dist/js/graal.js",
