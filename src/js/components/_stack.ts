@@ -10,7 +10,7 @@ import { _paddingCss } from '../mods/_padding.css';
 import { _radiusCss } from '../mods/_radius.css';
 import { _widthCss } from '../mods/_width.css';
 
-@customElement('gr-stack')
+@customElement('rl-stack')
 export class Stack extends SlotElement 
 {
     static styles = [
@@ -29,6 +29,6 @@ export class Stack extends SlotElement
 
 declare global {
     interface HTMLElementTagNameMap {
-        'gr-stack': Stack;
+        'rl-stack': Stack;
     }
 }

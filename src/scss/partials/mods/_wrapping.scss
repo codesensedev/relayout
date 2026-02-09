@@ -2,11 +2,11 @@
 
 // Keep in sync with: src/js/mods/_wrapping.css.ts
 
-.gr-nowrap { 
+.rl-nowrap { 
     flex-wrap: nowrap;
 }
 
-.gr-nowrap-scroll { 
+.rl-nowrap-scroll { 
     display: flex;
     flex-wrap: nowrap; 
     overflow-x: auto; // enable horizontal scrolling
@@ -15,10 +15,10 @@
     scrollbar-gutter: stable; // prevent layout shift when scrollbar appears
 }
 
-.gr-nowrap-scroll > * {
+.rl-nowrap-scroll > * {
     flex: 0 0 auto; // keep each child item at its ideal width; causes horizontal overflow
 }
 
-.gr-wrap-reverse {
+.rl-wrap-reverse {
     flex-wrap: wrap-reverse;
 }

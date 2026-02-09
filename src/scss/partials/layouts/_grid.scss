@@ -4,22 +4,22 @@
 
 // Keep in sync with: src/js/layouts/_grid.css.ts
 
-.gr-grid {
+.rl-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(var(--gr-grid-s), 1fr));
-    gap: var(--gr-gap-default);
+    grid-template-columns: repeat(auto-fit, minmax(var(--rl-grid-s), 1fr));
+    gap: var(--rl-gap-default);
 }
 
-.gr-grid-fit-xs { grid-template-columns: repeat(auto-fit, minmax(var(--gr-grid-xs), 1fr)); }
-.gr-grid-fit-s { grid-template-columns: repeat(auto-fit, minmax(var(--gr-grid-s), 1fr)); }
-.gr-grid-fit-m { grid-template-columns: repeat(auto-fit, minmax(var(--gr-grid-m), 1fr)); }
-.gr-grid-fit-l { grid-template-columns: repeat(auto-fit, minmax(var(--gr-grid-l), 1fr)); }
-.gr-grid-fit-xl { grid-template-columns: repeat(auto-fit, minmax(var(--gr-grid-xl), 1fr)); }
-.gr-grid-fit-2xl { grid-template-columns: repeat(auto-fit, minmax(var(--gr-grid-2xl), 1fr)); }
+.rl-grid-fit-xs { grid-template-columns: repeat(auto-fit, minmax(var(--rl-grid-xs), 1fr)); }
+.rl-grid-fit-s { grid-template-columns: repeat(auto-fit, minmax(var(--rl-grid-s), 1fr)); }
+.rl-grid-fit-m { grid-template-columns: repeat(auto-fit, minmax(var(--rl-grid-m), 1fr)); }
+.rl-grid-fit-l { grid-template-columns: repeat(auto-fit, minmax(var(--rl-grid-l), 1fr)); }
+.rl-grid-fit-xl { grid-template-columns: repeat(auto-fit, minmax(var(--rl-grid-xl), 1fr)); }
+.rl-grid-fit-2xl { grid-template-columns: repeat(auto-fit, minmax(var(--rl-grid-2xl), 1fr)); }
 
-.gr-grid-fill-xs { grid-template-columns: repeat(auto-fill, minmax(var(--gr-grid-xs), 1fr)); }
-.gr-grid-fill-s { grid-template-columns: repeat(auto-fill, minmax(var(--gr-grid-s), 1fr)); }
-.gr-grid-fill-m { grid-template-columns: repeat(auto-fill, minmax(var(--gr-grid-m), 1fr)); }
-.gr-grid-fill-l { grid-template-columns: repeat(auto-fill, minmax(var(--gr-grid-l), 1fr)); }
-.gr-grid-fill-xl { grid-template-columns: repeat(auto-fill, minmax(var(--gr-grid-xl), 1fr)); }
-.gr-grid-fill-2xl { grid-template-columns: repeat(auto-fill, minmax(var(--gr-grid-2xl), 1fr)); }
+.rl-grid-fill-xs { grid-template-columns: repeat(auto-fill, minmax(var(--rl-grid-xs), 1fr)); }
+.rl-grid-fill-s { grid-template-columns: repeat(auto-fill, minmax(var(--rl-grid-s), 1fr)); }
+.rl-grid-fill-m { grid-template-columns: repeat(auto-fill, minmax(var(--rl-grid-m), 1fr)); }
+.rl-grid-fill-l { grid-template-columns: repeat(auto-fill, minmax(var(--rl-grid-l), 1fr)); }
+.rl-grid-fill-xl { grid-template-columns: repeat(auto-fill, minmax(var(--rl-grid-xl), 1fr)); }
+.rl-grid-fill-2xl { grid-template-columns: repeat(auto-fill, minmax(var(--rl-grid-2xl), 1fr)); }

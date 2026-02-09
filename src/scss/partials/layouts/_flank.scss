@@ -4,12 +4,12 @@
 
 // Keep in sync with: src/js/layouts/_flank.css.ts
 
-.gr-flank {
+.rl-flank {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    gap: var(--gr-gap-default);
+    gap: var(--rl-gap-default);
 
     &>:last-child {
         flex-basis: 0;
@@ -17,7 +17,7 @@
     }
 }
 
-.gr-flank-end {
+.rl-flank-end {
     &>:first-child {
         flex-basis: 0;
         flex-grow: 999;

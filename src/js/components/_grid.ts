@@ -10,7 +10,7 @@ import { _paddingCss } from '../mods/_padding.css';
 import { _radiusCss } from '../mods/_radius.css';
 import { _widthCss } from '../mods/_width.css';
 
-@customElement('gr-grid')
+@customElement('rl-grid')
 export class Grid extends SlotElement 
 {
     static styles = [
@@ -29,6 +29,6 @@ export class Grid extends SlotElement
 
 declare global {
     interface HTMLElementTagNameMap {
-        'gr-grid': Grid;
+        'rl-grid': Grid;
     }
 }

@@ -1,40 +1,40 @@
 :root {
     // spacing scale
-    --gr-space-0:     0;
-    --gr-space-xs:    0.125rem;      // 2px
-    --gr-space-s:     0.25rem;       // 4px
-    --gr-space-m:     0.5rem;        // 8px
-    --gr-space-l:     1rem;          // 16px
-    --gr-space-xl:    1.5rem;        // 24px
-    --gr-space-2xl:   2.25rem;       // 36px
+    --rl-space-0:     0;
+    --rl-space-xs:    0.125rem;      // 2px
+    --rl-space-s:     0.25rem;       // 4px
+    --rl-space-m:     0.5rem;        // 8px
+    --rl-space-l:     1rem;          // 16px
+    --rl-space-xl:    1.5rem;        // 24px
+    --rl-space-2xl:   2.25rem;       // 36px
 
     // text scale
-    --gr-text-xs:     0.625rem;      // 10px
-    --gr-text-s:      0.75rem;       // 12px
-    --gr-text-m:      0.875rem;      // 14px
-    --gr-text-l:      1rem;          // 16px
-    --gr-text-xl:     1.5rem;        // 24px
-    --gr-text-2xl:    2.25rem;       // 36px
+    --rl-text-xs:     0.625rem;      // 10px
+    --rl-text-s:      0.75rem;       // 12px
+    --rl-text-m:      0.875rem;      // 14px
+    --rl-text-l:      1rem;          // 16px
+    --rl-text-xl:     1.5rem;        // 24px
+    --rl-text-2xl:    2.25rem;       // 36px
     
     // width scale
-    --gr-width-xs:    20rem;         // 320px   (-10)
-    --gr-width-s:     30rem;         // 480px   (-10)
-    --gr-width-m:     40rem;         // 640px   (-8)
-    --gr-width-l:     48rem;         // 768px   (0)
-    --gr-width-xl:    64rem;         // 1024px  (+16)
-    --gr-width-2xl:   80rem;         // 1280px  (+16)
+    --rl-width-xs:    20rem;         // 320px   (-10)
+    --rl-width-s:     30rem;         // 480px   (-10)
+    --rl-width-m:     40rem;         // 640px   (-8)
+    --rl-width-l:     48rem;         // 768px   (0)
+    --rl-width-xl:    64rem;         // 1024px  (+16)
+    --rl-width-2xl:   80rem;         // 1280px  (+16)
 
     // grid scale
-    --gr-grid-xs:     3.125rem;      // 50px
-    --gr-grid-s:      6.25rem;       // 100px
-    --gr-grid-m:      9.375rem;      // 150px
-    --gr-grid-l:      12.5rem;       // 200px
-    --gr-grid-xl:     15.625rem;     // 250px
-    --gr-grid-2xl:    20rem;         // 320px
+    --rl-grid-xs:     3.125rem;      // 50px
+    --rl-grid-s:      6.25rem;       // 100px
+    --rl-grid-m:      9.375rem;      // 150px
+    --rl-grid-l:      12.5rem;       // 200px
+    --rl-grid-xl:     15.625rem;     // 250px
+    --rl-grid-2xl:    20rem;         // 320px
 
     // defaults
-    --gr-gap-default: var(--gr-space-0);
-    --gr-padding-default: var(--gr-space-0);
-    --gr-radius-default: var(--gr-space-0);
-    --gr-border-default: solid 1px hsl(0, 0%, 50%);
+    --rl-gap-default: var(--rl-space-0);
+    --rl-padding-default: var(--rl-space-0);
+    --rl-radius-default: var(--rl-space-0);
+    --rl-border-default: solid 1px hsl(0, 0%, 50%);
 }

@@ -33,11 +33,11 @@ function minifyLitCSS() {
 export default {
   input: 'src/js/index.ts',
   output: {
-    file: 'dist/js/graal.js',
+    file: 'dist/js/relayout.js',
     format: 'esm',
     sourcemap: true,
     banner: `/*!
- * Graal - Minimalist library for building complex responsive layouts
+ * Relayout - Minimalist library for building complex responsive layouts
  *
  * Copyright (c) 2025 Lucian Pacurar
  *

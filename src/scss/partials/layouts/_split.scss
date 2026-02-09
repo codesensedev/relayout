@@ -4,16 +4,16 @@
 
 // Keep in sync with: src/js/layouts/_split.css.ts
 
-.gr-split {
+.rl-split {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: var(--gr-gap-default);
+    gap: var(--rl-gap-default);
 }
 
-.gr-split-equal > * {
+.rl-split-equal > * {
     flex: 1 1 0;
     min-width: 0; /* prevents overflow */
 }

@@ -11,7 +11,7 @@ import { _radiusCss } from '../mods/_radius.css';
 import { _widthCss } from '../mods/_width.css';
 import { _wrappingCss } from '../mods/_wrapping.css';
 
-@customElement('gr-split')
+@customElement('rl-split')
 export class Split extends SlotElement 
 {
     static styles = [
@@ -31,6 +31,6 @@ export class Split extends SlotElement
 
 declare global {
     interface HTMLElementTagNameMap {
-        'gr-split': Split;
+        'rl-split': Split;
     }
 }

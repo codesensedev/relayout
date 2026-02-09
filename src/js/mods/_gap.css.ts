@@ -2,13 +2,13 @@ import { css } from 'lit';
 
 // Keep in sync with: src/scss/partials/mods/_gap.scss
 
-// .gr-gap-*
+// .rl-gap-*
 export const _gapCss = css`
-    :host([gr-gap-0]) { gap: var(--gr-space-0); }
-    :host([gr-gap-xs]) { gap: var(--gr-space-xs); }
-    :host([gr-gap-s]) { gap: var(--gr-space-s); }
-    :host([gr-gap-m]) { gap: var(--gr-space-m); }
-    :host([gr-gap-l]) { gap: var(--gr-space-l); }
-    :host([gr-gap-xl]) { gap: var(--gr-space-xl); }
-    :host([gr-gap-2xl]) { gap: var(--gr-space-2xl); }
+    :host([rl-gap-0]) { gap: var(--rl-space-0); }
+    :host([rl-gap-xs]) { gap: var(--rl-space-xs); }
+    :host([rl-gap-s]) { gap: var(--rl-space-s); }
+    :host([rl-gap-m]) { gap: var(--rl-space-m); }
+    :host([rl-gap-l]) { gap: var(--rl-space-l); }
+    :host([rl-gap-xl]) { gap: var(--rl-space-xl); }
+    :host([rl-gap-2xl]) { gap: var(--rl-space-2xl); }
 `;

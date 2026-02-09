@@ -2,7 +2,7 @@ import { css } from 'lit';
 
 // Keep in sync with: src/scss/partials/layouts/_frame.scss
 
-// .gr-frame
+// .rl-frame
 export const _frameCss = css`
     :host {
         display: flex;

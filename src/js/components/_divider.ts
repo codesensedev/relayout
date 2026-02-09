@@ -2,7 +2,7 @@ import { SlotElement } from '../base/slot-element';
 import { customElement } from 'lit/decorators.js';
 import { _dividerCss } from '../layouts/_divider.css';
 
-@customElement('gr-divider')
+@customElement('rl-divider')
 export class Divider extends SlotElement
 
 {
@@ -13,6 +13,6 @@ export class Divider extends SlotElement
 
 declare global {
     interface HTMLElementTagNameMap {
-        'gr-divider': Divider;
+        'rl-divider': Divider;
     }
 }

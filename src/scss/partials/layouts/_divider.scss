@@ -4,7 +4,7 @@
 
 // Keep in sync with: src/js/layouts/_divider.css.ts
 
-.gr-divider {
+.rl-divider {
     align-self: stretch;
     border: none;
     margin: 0;
@@ -12,14 +12,14 @@
     /* horizontal */
     width: 100%;
     height: 0;
-    border-top: var(--gr-border-default);
+    border-top: var(--rl-border-default);
 }
 
-.gr-divider {
+.rl-divider {
     &.vertical {
         /* vertical */
         width: 0;
         height: 100%;
-        border-left: var(--gr-border-default);
+        border-left: var(--rl-border-default);
     }
 }

@@ -1,8 +1,8 @@
 /*
- * Set box-sizing to border-box for all graal components 
+ * Set box-sizing to border-box for all relayout components 
  * so padding/border are included in the width.
  */
-[class*="graal-"] {
+[class*="rl-"] {
     box-sizing: border-box;
     outline: none;
 }

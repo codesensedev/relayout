@@ -2,7 +2,7 @@ import { css } from 'lit';
 
 // Keep in sync with: src/scss/partials/layouts/_split.scss
 
-// .gr-split
+// .rl-split
 export const _splitCss = css`
     :host {
         display: flex;
@@ -10,10 +10,10 @@ export const _splitCss = css`
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: var(--gr-gap-default);
+        gap: var(--rl-gap-default);
     }
 
-    :host([gr-split-equal]) ::slotted(*) {
+    :host([rl-split-equal]) ::slotted(*) {
         flex: 1 1 0px;
         min-width: 0;
     }

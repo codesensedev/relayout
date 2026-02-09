@@ -4,15 +4,15 @@
  
 // Keep in sync with: src/js/layouts/_stack.css.ts
  
-.gr-stack {
+.rl-stack {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: start;
-    gap: var(--gr-gap-default);
+    gap: var(--rl-gap-default);
 
     /* Stack specific text alignment */
-    &.gr-align-start { text-align: start; }
-    &.gr-align-center { text-align: center; }
-    &.gr-align-end { text-align: end; }
+    &.rl-align-start { text-align: start; }
+    &.rl-align-center { text-align: center; }
+    &.rl-align-end { text-align: end; }
 }

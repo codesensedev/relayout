@@ -1,21 +1,21 @@
 {
-  "name": "@codesense/graal",
-  "version": "0.0.19",
+  "name": "@codesense/relayout",
+  "version": "0.0.20",
   "type": "module",
   "description": "Minimalist library for building complex responsive layouts",
   "license": "MIT",
-  "main": "dist/js/graal.js",
-  "module": "dist/js/graal.js",
-  "style": "dist/css/graal.css",
+  "main": "dist/js/relayout.js",
+  "module": "dist/js/relayout.js",
+  "style": "dist/css/relayout.css",
   "types": "dist/js/types/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/js/types/index.d.ts",
-      "import": "./dist/js/graal.js",
-      "default": "./dist/js/graal.js"
+      "import": "./dist/js/relayout.js",
+      "default": "./dist/js/relayout.js"
     },
-    "./css": "./dist/css/graal.css",
-    "./graal.css": "./dist/css/graal.css"
+    "./css": "./dist/css/relayout.css",
+    "./relayout.css": "./dist/css/relayout.css"
   },
   "files": [
     "dist"
@@ -23,12 +23,12 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "npm run build:css && npm run build:js",
-    "build:css": "sass src/scss/graal.scss dist/css/graal.css --style=compressed --no-source-map",
+    "build:css": "sass src/scss/relayout.scss dist/css/relayout.css --style=compressed --no-source-map",
     "build:js": "rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codesensedev/graal"
+    "url": "https://github.com/codesensedev/relayout"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^16.0.3",

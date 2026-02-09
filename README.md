@@ -1,6 +1,6 @@
 <p align="center">
     <p align="center">
-        Graal
+        Relayout
     </p>
     <p align="center">
         Minimalist library for building complex responsive layouts

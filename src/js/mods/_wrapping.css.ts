@@ -2,13 +2,13 @@ import { css } from 'lit';
 
 // Keep in sync with: src/scss/partials/mods/_wrapping.scss
 
-// .gr-nowrap-*, .gr-wrap-reverse
+// .rl-nowrap-*, .rl-wrap-reverse
 export const _wrappingCss = css`
-    :host([gr-nowrap]) {
+    :host([rl-nowrap]) {
         flex-wrap: nowrap;
     }
 
-    :host([gr-nowrap-scroll]) {
+    :host([rl-nowrap-scroll]) {
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -17,11 +17,11 @@ export const _wrappingCss = css`
         /* scrollbar-gutter: stable; */
     }
 
-    :host([gr-nowrap-scroll]) > ::slotted(*) {
+    :host([rl-nowrap-scroll]) > ::slotted(*) {
         flex: 0 0 auto;
     }
 
-    :host([gr-wrap-reverse]) {
+    :host([rl-wrap-reverse]) {
         flex-wrap: wrap-reverse;
     }
 `;

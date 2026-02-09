@@ -2,7 +2,7 @@ import { css } from 'lit';
 
 // Keep in sync with: src/scss/partials/mods/_height.scss
 
-// .gr-height-*
+// .rl-height-*
 export const _heightCss = css`
     :host([height-full]) {
         height: 100%;
