@@ -37,7 +37,7 @@ export default {
     format: 'esm',
     sourcemap: true,
     banner: `/*!
- * Relayout - Minimalist library for building complex responsive layouts
+ * Relayout - Responsive layout system
  *
  * Copyright (c) 2025 Lucian Pacurar
  *

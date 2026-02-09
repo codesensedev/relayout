@@ -3,7 +3,7 @@
         Relayout
     </p>
     <p align="center">
-        Minimalist library for building complex responsive layouts
+        Responsive layout system
     </p>
 </p>
 

@@ -1,8 +1,8 @@
 {
   "name": "@codesense/relayout",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "type": "module",
-  "description": "Minimalist library for building complex responsive layouts",
+  "description": "Responsive layout system",
   "license": "MIT",
   "main": "dist/js/relayout.js",
   "module": "dist/js/relayout.js",
