@@ -12,7 +12,7 @@ import { _widthCss } from '../mods/_width.css';
 import { _wrappingCss } from '../mods/_wrapping.css';
 
 @customElement('gr-flank')
-export class GraalFlank extends SlotElement 
+export class Flank extends SlotElement 
 {
     static styles = [
         _flankCss,
@@ -31,6 +31,6 @@ export class GraalFlank extends SlotElement
 
 declare global {
     interface HTMLElementTagNameMap {
-        'gr-flank': GraalFlank;
+        'gr-flank': Flank;
     }
 }

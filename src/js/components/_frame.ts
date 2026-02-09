@@ -11,7 +11,7 @@ import { _radiusCss } from '../mods/_radius.css';
 import { _widthCss } from '../mods/_width.css';
 
 @customElement('gr-frame')
-export class GraalFrame extends SlotElement 
+export class Frame extends SlotElement 
 {
     static styles = [
         _frameCss,
@@ -29,6 +29,6 @@ export class GraalFrame extends SlotElement
 
 declare global {
     interface HTMLElementTagNameMap {
-        'gr-frame': GraalFrame;
+        'gr-frame': Frame;
     }
 }

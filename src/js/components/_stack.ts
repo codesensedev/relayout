@@ -11,7 +11,7 @@ import { _radiusCss } from '../mods/_radius.css';
 import { _widthCss } from '../mods/_width.css';
 
 @customElement('gr-stack')
-export class GraalStack extends SlotElement 
+export class Stack extends SlotElement 
 {
     static styles = [
         _stackCss,
@@ -29,6 +29,6 @@ export class GraalStack extends SlotElement
 
 declare global {
     interface HTMLElementTagNameMap {
-        'gr-stack': GraalStack;
+        'gr-stack': Stack;
     }
 }

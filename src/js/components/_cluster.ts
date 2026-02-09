@@ -12,7 +12,7 @@ import { _widthCss } from '../mods/_width.css';
 import { _wrappingCss } from '../mods/_wrapping.css';
 
 @customElement('gr-cluster')
-export class GraalCluster extends SlotElement 
+export class Cluster extends SlotElement 
 {
     static styles = [
         _clusterCss,
@@ -31,6 +31,6 @@ export class GraalCluster extends SlotElement
 
 declare global {
     interface HTMLElementTagNameMap {
-        'gr-cluster': GraalCluster;
+        'gr-cluster': Cluster;
     }
 }

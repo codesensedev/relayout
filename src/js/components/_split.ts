@@ -12,7 +12,7 @@ import { _widthCss } from '../mods/_width.css';
 import { _wrappingCss } from '../mods/_wrapping.css';
 
 @customElement('gr-split')
-export class GraalSplit extends SlotElement 
+export class Split extends SlotElement 
 {
     static styles = [
         _splitCss,
@@ -31,6 +31,6 @@ export class GraalSplit extends SlotElement
 
 declare global {
     interface HTMLElementTagNameMap {
-        'gr-split': GraalSplit;
+        'gr-split': Split;
     }
 }
