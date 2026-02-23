@@ -13,7 +13,22 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-NSF4GTG8PM');
+        // Disable automatic page_view so we can send a page_view that includes the hash
+        gtag('config', 'G-NSF4GTG8PM', { send_page_view: false });
+
+        function sendGAPageview() {
+            const path = location.pathname + location.hash;
+            const data = {
+                page_location: location.href,
+                page_path: path,
+                page_title: document.title
+            };
+            gtag('event', 'page_view', data);
+        }
+
+        // Send initial pageview and on hash navigation
+        window.addEventListener('load', sendGAPageview);
+        window.addEventListener('hashchange', sendGAPageview);
     </script>
 
     <link rel="stylesheet" href="assets/css/relayout.css">
