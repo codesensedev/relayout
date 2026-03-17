@@ -1,0 +1,11 @@
+// shadow
+
+// Keep in sync with: src/js/mods/_shadow.css.ts
+
+.rl-shadow-xs    { box-shadow: var(--rl-shadow-xs); }
+.rl-shadow-s     { box-shadow: var(--rl-shadow-s); }
+.rl-shadow-m     { box-shadow: var(--rl-shadow-m); }
+.rl-shadow-l     { box-shadow: var(--rl-shadow-l); }
+.rl-shadow-xl    { box-shadow: var(--rl-shadow-xl); }
+.rl-shadow-none  { box-shadow: none; }
+.rl-shadow-inner { box-shadow: var(--rl-shadow-inner); }

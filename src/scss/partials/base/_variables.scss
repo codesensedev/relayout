@@ -45,4 +45,48 @@
     --rl-padding-default: var(--rl-space-0);
     --rl-radius-default: var(--rl-space-0);
     --rl-border-default: solid 1px hsl(0, 0%, 50%);
+
+    // color scale
+    --rl-color-primary:      hsl(215, 80%, 45%);
+    --rl-color-secondary:    hsl(260, 50%, 50%);
+    --rl-color-accent:       hsl(30, 90%, 50%);
+    --rl-color-success:      hsl(142, 60%, 35%);
+    --rl-color-warning:      hsl(38, 95%, 45%);
+    --rl-color-danger:       hsl(0, 70%, 50%);
+    --rl-color-info:         hsl(200, 75%, 45%);
+    --rl-color-surface:      hsl(0, 0%, 100%);
+    --rl-color-surface-alt:  hsl(0, 0%, 96%);
+    --rl-color-text:         hsl(0, 0%, 10%);
+    --rl-color-text-muted:   hsl(0, 0%, 45%);
+
+    // shadow scale
+    --rl-shadow-xs:    0 1px 2px hsl(0 0% 0% / 0.08);
+    --rl-shadow-s:     0 1px 4px hsl(0 0% 0% / 0.12);
+    --rl-shadow-m:     0 2px 8px hsl(0 0% 0% / 0.16);
+    --rl-shadow-l:     0 4px 16px hsl(0 0% 0% / 0.20);
+    --rl-shadow-xl:    0 8px 32px hsl(0 0% 0% / 0.24);
+    --rl-shadow-inner: inset 0 1px 3px hsl(0 0% 0% / 0.12);
+
+    // gradient scale
+    --rl-gradient-primary: linear-gradient(135deg, var(--rl-color-primary), var(--rl-color-secondary));
+    --rl-gradient-accent:  linear-gradient(135deg, var(--rl-color-accent), var(--rl-color-primary));
+    --rl-gradient-subtle:  linear-gradient(180deg, var(--rl-color-surface), var(--rl-color-surface-alt));
+    --rl-gradient-warm:    linear-gradient(135deg, hsl(30, 90%, 55%), hsl(0, 75%, 55%));
+    --rl-gradient-cool:    linear-gradient(135deg, hsl(200, 80%, 50%), hsl(260, 60%, 55%));
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --rl-color-primary:      hsl(215, 85%, 65%);
+        --rl-color-secondary:    hsl(260, 60%, 70%);
+        --rl-color-accent:       hsl(30, 90%, 60%);
+        --rl-color-success:      hsl(142, 60%, 50%);
+        --rl-color-warning:      hsl(38, 95%, 60%);
+        --rl-color-danger:       hsl(0, 75%, 65%);
+        --rl-color-info:         hsl(200, 80%, 60%);
+        --rl-color-surface:      hsl(0, 0%, 12%);
+        --rl-color-surface-alt:  hsl(0, 0%, 18%);
+        --rl-color-text:         hsl(0, 0%, 95%);
+        --rl-color-text-muted:   hsl(0, 0%, 65%);
+    }
 }

@@ -19,12 +19,15 @@
 
 // mods
 @use 'partials/mods/_gap';
+@use 'partials/mods/_gradient';
 @use 'partials/mods/_padding';
 @use 'partials/mods/_align';
 @use 'partials/mods/_justify';
 @use 'partials/mods/_width';
 @use 'partials/mods/_height';
 @use 'partials/mods/_border';
+@use 'partials/mods/_color';
 @use 'partials/mods/_radius';
+@use 'partials/mods/_shadow';
 @use 'partials/mods/_wrapping';
 @use 'partials/mods/_typography';

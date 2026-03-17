@@ -3,11 +3,14 @@ import { customElement } from 'lit/decorators.js';
 import { _frameCss } from '../layouts/_frame.css';
 import { _alignCss } from '../mods/_align.css';
 import { _borderCss } from '../mods/_border.css';
+import { _colorCss } from '../mods/_color.css';
 import { _gapCss } from '../mods/_gap.css';
+import { _gradientCss } from '../mods/_gradient.css';
 import { _heightCss } from '../mods/_height.css';
 import { _justifyCss } from '../mods/_justify.css';
 import { _paddingCss } from '../mods/_padding.css';
 import { _radiusCss } from '../mods/_radius.css';
+import { _shadowCss } from '../mods/_shadow.css';
 import { _widthCss } from '../mods/_width.css';
 
 @customElement('rl-frame')
@@ -18,11 +21,14 @@ export class Frame extends SlotElement
         // applicable mods
         _alignCss,
         _borderCss,
+        _colorCss,
         _gapCss,
+        _gradientCss,
         _heightCss,
         _justifyCss,
         _paddingCss,
         _radiusCss,
+        _shadowCss,
         _widthCss,
     ];
 }
