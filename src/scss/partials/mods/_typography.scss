@@ -1,0 +1,56 @@
+// typography
+
+// Keep in sync with: src/js/mods/_typography.css.ts
+
+// font family
+.rl-font-sans      { font-family: var(--rl-font-sans); }
+.rl-font-serif     { font-family: var(--rl-font-serif); }
+.rl-font-mono      { font-family: var(--rl-font-mono); }
+.rl-font-sans-alt  { font-family: var(--rl-font-sans-alt); }
+.rl-font-serif-alt { font-family: var(--rl-font-serif-alt); }
+.rl-font-mono-alt  { font-family: var(--rl-font-mono-alt); }
+
+// font weight
+.rl-font-bold    { font-weight: 700; }
+.rl-font-medium  { font-weight: 500; }
+.rl-font-regular { font-weight: 400; }
+
+// text size
+.rl-text-xs  { font-size: var(--rl-text-xs); }
+.rl-text-s   { font-size: var(--rl-text-s); }
+.rl-text-m   { font-size: var(--rl-text-m); }
+.rl-text-l   { font-size: var(--rl-text-l); }
+.rl-text-xl  { font-size: var(--rl-text-xl); }
+.rl-text-2xl { font-size: var(--rl-text-2xl); }
+
+// text decoration / style
+.rl-text-italic    { font-style: italic; }
+.rl-text-underline { text-decoration: underline; }
+.rl-text-strike    { text-decoration: line-through; }
+.rl-text-muted     { opacity: 0.5; }
+
+// text alignment
+.rl-text-left   { text-align: left; }
+.rl-text-center { text-align: center; }
+.rl-text-right  { text-align: right; }
+
+// text transform
+.rl-text-uppercase  { text-transform: uppercase; }
+.rl-text-lowercase  { text-transform: lowercase; }
+.rl-text-capitalize { text-transform: capitalize; }
+
+// line height
+.rl-textline-tight  { line-height: 1.25; }
+.rl-textline-normal { line-height: 1.5; }
+.rl-textline-loose  { line-height: 2; }
+
+// text wrap
+.rl-text-wrap   { white-space: normal; }
+.rl-text-nowrap { white-space: nowrap; }
+
+// truncate
+.rl-text-truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

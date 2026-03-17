@@ -8,14 +8,6 @@
     --rl-space-xl:    1.5rem;        // 24px
     --rl-space-2xl:   2.25rem;       // 36px
 
-    // text scale
-    --rl-text-xs:     0.625rem;      // 10px
-    --rl-text-s:      0.75rem;       // 12px
-    --rl-text-m:      0.875rem;      // 14px
-    --rl-text-l:      1rem;          // 16px
-    --rl-text-xl:     1.5rem;        // 24px
-    --rl-text-2xl:    2.25rem;       // 36px
-    
     // width scale
     --rl-width-xs:    20rem;         // 320px   (-10)
     --rl-width-s:     30rem;         // 480px   (-10)
@@ -31,6 +23,22 @@
     --rl-grid-l:      12.5rem;       // 200px
     --rl-grid-xl:     15.625rem;     // 250px
     --rl-grid-2xl:    20rem;         // 320px
+
+    // font families
+    --rl-font-sans:      system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --rl-font-serif:     Georgia, 'Times New Roman', Times, serif;
+    --rl-font-mono:      ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace;
+    --rl-font-sans-alt:  var(--rl-font-sans);
+    --rl-font-serif-alt: var(--rl-font-serif);
+    --rl-font-mono-alt:  var(--rl-font-mono);
+
+    // text scale
+    --rl-text-xs:     0.625rem;      // 10px
+    --rl-text-s:      0.75rem;       // 12px
+    --rl-text-m:      0.875rem;      // 14px
+    --rl-text-l:      1rem;          // 16px
+    --rl-text-xl:     1.5rem;        // 24px
+    --rl-text-2xl:    2.25rem;       // 36px
 
     // defaults
     --rl-gap-default: var(--rl-space-0);
