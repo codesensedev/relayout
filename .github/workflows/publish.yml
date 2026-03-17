@@ -9,6 +9,8 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
 
@@ -17,7 +19,7 @@ jobs:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org'
 
-      - run: npm ci
+      - run: npm install
       - run: npm version ${GITHUB_REF_NAME#v} --no-git-tag-version
       - run: npm publish --access public
         env:
