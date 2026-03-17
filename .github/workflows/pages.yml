@@ -1,4 +1,5 @@
 name: Publish to GitHub Pages
+run-name: "Publish ${{ github.ref_name }} to GitHub Pages"
 
 on:
   release:
